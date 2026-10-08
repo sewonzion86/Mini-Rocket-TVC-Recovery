@@ -4,7 +4,7 @@ A conceptual MATLAB simulation exploring thrust-vector control, attitude respons
 
 ## Project Overview
 
-This project demonstrates a simplified aerospace GNC workflow using MATLAB. The model includes translational motion, pitch attitude, angular velocity, thrust-vector-control deflection, mass depletion, thrust scheduling, and basic recovery logic.
+This project demonstrates a simplified aerospace GNC workflow using MATLAB. The model includes translational motion, pitch attitude, angular velocity, thrust-vector-control deflection, mass depletion, and recovery behavior.
 
 ## Main File
 
@@ -15,6 +15,28 @@ rocket
 ```
 
 The script generates altitude, thrust, TVC, vertical velocity, trajectory, and pitch-response plots.
+
+## Simulation Output Figures
+
+### Altitude response
+
+![Mini Rocket altitude response](figures/mini_rocket_altitude.svg)
+
+### Thrust schedule
+
+![Mini Rocket thrust schedule](figures/mini_rocket_thrust_schedule.svg)
+
+### TVC command
+
+![Mini Rocket TVC command](figures/mini_rocket_tvc_command.svg)
+
+### Vertical velocity
+
+![Mini Rocket vertical velocity](figures/mini_rocket_vertical_velocity.svg)
+
+### 3D recovery trajectory
+
+![Mini Rocket 3D recovery trajectory](figures/mini_rocket_3d_recovery_path.svg)
 
 ## State Vector
 
@@ -56,10 +78,11 @@ Mini-Rocket-TVC-Recovery/
 ├── README.md
 ├── .gitignore
 └── figures/
-    ├── mini_rocket_updated_performance.png
-    ├── mini_rocket_updated_control.png
-    ├── mini_rocket_updated_math_conditions.png
-    └── mini_rocket_3D_recovery_takeoff.gif
+    ├── mini_rocket_altitude.svg
+    ├── mini_rocket_thrust_schedule.svg
+    ├── mini_rocket_tvc_command.svg
+    ├── mini_rocket_vertical_velocity.svg
+    └── mini_rocket_3d_recovery_path.svg
 ```
 
 ## Engineering Topics
@@ -79,7 +102,7 @@ This is a reduced-order educational simulation.
 
 ## Safety / Scope
 
-This repository is intended for simulation and academic study. 
+This repository is intended for simulation and academic study.
 
 ## Author
 
