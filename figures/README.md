@@ -5,10 +5,10 @@ Store exported plots and visual results from the Mini Rocket TVC and recovery si
 Suggested categories:
 
 - altitude
-- thrust/mass
+- thrust
 - TVC commands
-- velocity/attitude
+- velocity and attitude
 - 3D trajectory
 - recovery performance
 
-Keep generated figures separate from source code.
+Keep generated figures separate from the MATLAB source files.
