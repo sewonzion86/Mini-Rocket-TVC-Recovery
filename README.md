@@ -75,11 +75,11 @@ Mini-Rocket-TVC-Recovery/
 
 ## Limitations
 
-This is a reduced-order educational simulation. It is not flight-certified software, a complete 6-DOF model, a propulsion design tool, or a flight-ready controller. Atmospheric, structural, propulsion, sensor, actuator, aerodynamic, and navigation effects are simplified or omitted.
+This is a reduced-order educational simulation.
 
 ## Safety / Scope
 
-This repository is intended for simulation and academic study. It does not provide instructions for constructing, modifying, optimizing, or operating live rocket propulsion systems.
+This repository is intended for simulation and academic study. 
 
 ## Author
 
