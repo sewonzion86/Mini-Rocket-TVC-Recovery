@@ -240,16 +240,14 @@ Mini-Rocket-TVC-Recovery/
 ├── .gitignore
 ├── README.md
 ├── rocket.m
+├── rocket_6DOF_2Axis_TVC_Recovery.m
 ├── figures/
 │   ├── README.md
 │   ├── mini_rocket_3d_recovery_path.svg
 │   ├── mini_rocket_altitude.svg
 │   ├── mini_rocket_tvc_command.svg
 │   └── mini_rocket_vertical_velocity.svg
-└── (6-DOF script under active development, not yet checked into this tree)
 ```
-
-The checked-in repository tree currently contains the pitch-plane baseline and the figure gallery. The development 6-DOF script described above is the primary simulation logic for the project, but it is not part of the current tree shown here.
 
 ## Engineering topics
 
