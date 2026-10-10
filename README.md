@@ -104,3 +104,32 @@ This repository is for simulation and academic study. It does not provide instru
 
 **Sewon Zion S.**
 Aeronautical Engineering | GNC | Rocket Propulsion | Flight Dynamics | Simulation
+
+## Python simulation (rebuilt)
+
+Rebuilt in Python after the original MATLAB file was lost. Same spec: F-class motor (~40 N.s, 1.75 s),
+2-axis TVC (+/-6 deg limit), 100 Hz loop, gyro-integrated estimator, baro/GPS filter, wind and gusts,
+coast, apogee detection, parachute recovery. Simulation study only, not flight-certified.
+
+Run:
+
+    pip install -r requirements.txt
+    python mini_rocket_6dof_tvc.py            # add --mc 8 for the Monte Carlo spread
+
+| Metric (seed 7) | Result |
+|---|---|
+| Apogee | 242.8 m |
+| Peak velocity | 73.2 m/s |
+| Max thrust | 34.0 N |
+| Descent rate | 5.84 m/s |
+| Landing | 92 m downrange |
+
+Limitations: representative (not measured) motor curve; parachute is a drag force at the CG with
+rotational damping (no riser/pendulum dynamics).
+
+![Dashboard](mini_rocket_dashboard.png)
+![Trajectory](mini_rocket_trajectory3d.png)
+
+## Demo
+
+[Watch the demo video](media/demo.mp4)
